@@ -2,17 +2,25 @@
 /*styling for the background and fonts*/
 @media only screen and (min-width: 375px)  {
 body {
+
     background-color: #F7F1ED;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 24px;
     color: #413939;
 }
 
 /*styling for Latest News subtitle*/
 
+h2 {
 
+    font-size: 24px ;
+    line-height: 30px;
+    
+}
 
 .subtitle {
+
     display: flex;
     padding-top: 50px;
     padding-bottom: 0%;
@@ -24,37 +32,60 @@ body {
 /*header links*/
 
 ul {
+
     display: flex;
     flex-direction: row;
-    list-style: none;
+    list-style-type: none;
     justify-content: space-between;
-    padding: 0px 5px 5px 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 
-     
+}
+
+li a {
+    border: 1px solid #413939;
+    color: #413939;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #98002E;
+    color: white;
   }
 
 .grid-item1 {
+
     display: grid;
     padding: 30px;
     margin: .5em;
 }
 
+/*GDES News Logo*/
+
+.image1 {
+
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
 /*proportions for all images*/
 
 img {
+
     width: 90%;
    
 
 }
 
-/*GDES News Logo*/
 
-.image1 {
-   display: flex;
-   padding-left: 30px;
-   justify-content: center;
-   align-items: center;
-   height: 100%;
-   }
 
    @media only screen and (max-width: 1920px) {
