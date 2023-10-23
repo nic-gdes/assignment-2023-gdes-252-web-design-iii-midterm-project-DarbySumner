@@ -3,6 +3,7 @@
 
 body {
     display: grid;
+    text-align: left;
     padding-right: 30px;
     padding-left: 30px;
     background-color: #F7F1ED;
@@ -141,17 +142,18 @@ img {
 }
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (min-width: 1320px) {
     
     body {
         display: grid;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 50px;
+        padding-left: 50px;
         background-color: #F7F1ED;
         font-family: Helvetica, sans-serif;
         font-size: 12pt;
         line-height: 24px;
         color: #413939;
+    
     }
     
     /*styling for Latest News subtitle*/
@@ -181,10 +183,8 @@ img {
         flex-direction: row;
         list-style-type: none;
         justify-content: space-between;
-        padding-left: 20px;
-        padding-right: 20px;
-        
-    
+        width: 300px;
+
     }
     
     li a {
@@ -218,9 +218,9 @@ img {
     .image1 {
     
         display: flex;
-       
         justify-content: center;
         align-items: center;
+        width: 30%;
         height: 100%;
      }
     
@@ -229,7 +229,7 @@ img {
     img {
         display: flex;
         justify-content: center;
-        width: 100%;
+       
     }
     
     .line-break {
@@ -244,11 +244,13 @@ img {
     .grid-item2 {
     
         padding-bottom: 40px;
+        width: 30%;
     }
     
     .grid-item3 {
-        
+        display: gird;
         padding-bottom: 40px;
+        width: 40%;
     }
     
     .grid-item4 {
