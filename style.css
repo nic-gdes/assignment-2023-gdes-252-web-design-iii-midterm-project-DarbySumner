@@ -425,3 +425,208 @@ li a:hover {
 
 }
 
+
+
+@media only screen and (max-width: 1920px) {
+
+    /*styiling for the main grid container of the body*/
+body {
+
+    display: grid;
+    text-align: left;
+    background-color: #F7F1ED;
+    font-family: Helvetica, sans-serif;
+    line-height: 24px;
+    color: #413939;
+    margin: 0%;
+}
+
+.grid-container {
+
+    display: grid;
+    
+
+}
+
+.grid-container2 {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+/*styling for gdes news logo*/
+
+.gdes-logo-maroon {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 80%;
+    padding-right: 100%;
+    padding-top: 100px;
+
+ 
+    
+}
+
+
+h2 {
+
+    font-size: 24px ;
+    line-height: 30px;
+    
+}
+/*styling for latest news subtitle*/
+
+.subtitle {
+
+    display: flex;
+    padding-left: 60px; 
+    justify-content: left;
+    font-size: 50pt;
+
+}
+
+/*navigation links*/
+
+ul {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: left;
+    padding-bottom: 80px;
+    padding-left: 60px;
+   
+
+}
+
+li {
+
+    padding-right: 20px;
+}
+
+li a {
+
+    padding: 8px 16px;
+    border: 1px solid #413939;
+    border-radius: 20px;
+    color: #413939;
+    width: 20px;
+    height: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+
+li a:hover {
+    background-color: #98002E;
+    color: white;
+  }
+
+
+
+.line-break {
+
+    display: none;
+    justify-content: center;
+    background-color: #98002E;
+    width: 100%;
+    height: 2px;
+    
+}
+
+.grid-item4 {
+
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+.grid-item5 {
+
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.grid-item6 {
+
+    padding-bottom: 50px;
+}
+
+.classroom {
+
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.grid-item7 {
+
+    background-color: #F4E2D6 ;
+    padding-top: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.grid-item7-a {
+    
+    padding-bottom: 10px;
+}
+
+.grid-item7-b {
+
+    padding-bottom: 10px;
+}
+
+.grid-item7-c {
+
+    padding-bottom: 40px;
+}
+
+.button-container {
+
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+
+}
+
+.button {
+
+   display: inline-block;
+   justify-content: center;
+   background-color: #98002E;
+   color: #F7F1ED;
+   border-radius: 50px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+   text-decoration: none;
+   border: none;
+   font-size: 14pt ;
+   font-family: Helvetica, sans-serif;
+
+}
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #98002E;
+    color: white;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 20px;
+    font-size: 14pt;
+   
+  
+ 
+}
+
+}
+
